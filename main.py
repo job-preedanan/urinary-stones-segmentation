@@ -2,7 +2,8 @@ import tensorflow as tf
 import numpy as np
 import cv2
 import os
-from unet_model import UNet
+# from unet_model import UNet
+from unet_based_model import UNet
 from utils import create_KUB_partitions, combine_KUB_partitions, normalize, \
     denormalize, remove_small_blobs, make_square, heatmap_generate
 import matplotlib.pyplot as plt
